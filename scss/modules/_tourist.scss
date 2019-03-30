@@ -1,0 +1,37 @@
+.tourist{
+	background: url('../images/travel.jpg');
+	color: #fff;
+	padding: 125px 0 200px;
+	&__title{
+		text-align: center;
+		font:36px/.7 $aleo;
+		padding-bottom: 100px;
+	}
+	&__wrap{
+		
+	}
+	&__img{
+		
+	}
+	&__text{
+		padding: 50px 40px;
+		background: #333;
+	}
+	&__name{
+		font:20px/1.3 $josef;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	&__desc{
+		font:16px/1.7 $josef;
+		position: relative;
+	}
+	&__desc::before{
+		content: '';
+		
+	}
+	&__icon{
+		color: $blue;
+	}
+}

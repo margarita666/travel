@@ -1,0 +1,40 @@
+.choose{
+
+	background: url('../images/choose.jpg');
+	background-size: cover;
+	padding: 120px 0;
+	color: #fff;
+
+	&__btn{
+		background: $blue;
+		padding: 20px 35px;
+		font: 16px/1.6 $aleo;
+		color: #fff;
+		text-transform: uppercase;
+		cursor: pointer;
+
+	}
+	&__text{
+		padding-top: 80px;
+	}
+	&__title{
+		font:36px/.7 $aleo;
+		margin-bottom: 70px;
+	}
+
+	&__desc-one{
+		font:16px/1.6 $josef;
+		margin-bottom: 30px;
+
+	}
+	&__desc-two{
+		font:16px/1.6 $josef;
+		margin-bottom: 48px;
+	}
+	&__img{
+		margin-bottom: 6px;
+	}
+}
+.btn__link{
+	color: #fff;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
+// @include font-face('aleo', 'fonts/aleo/aleo-lightitalic', 300, italic);
+
+// @font-face {
+//     font-family: 'aleo';
+//     src: url('fonts/aleo/aleo-lightitalic.eot');
+//     src: url('fonts/aleo/aleo-lightitalic.eot?#iefix') format('embedded-opentype'),
+//          url('fonts/aleo/aleo-lightitalic.woff2') format('woff2'),
+//          url('fonts/aleo/aleo-lightitalic.woff') format('woff'),
+//          url('fonts/aleo/aleo-lightitalic.ttf') format('truetype'),
+//          url('fonts/aleo/aleo-lightitalic.svg#aleolightitalic') format('svg');
+//     font-weight: 300;
+//     font-style: italic;
+
+// }
+
+
+
+@include font-face('aleo', 'fonts/aleo/aleo-regular');
+// @font-face {
+//     font-family: 'aleo';
+//     src: url('fonts/aleo/aleo-regular.eot');
+//     src: url('fonts/aleo/aleo-regular.eot?#iefix') format('embedded-opentype'),
+//          url('fonts/aleo/aleo-regular.woff2') format('woff2'),
+//          url('fonts/aleo/aleo-regular.woff') format('woff'),
+//          url('fonts/aleo/aleo-regular.ttf') format('truetype'),
+//          url('fonts/aleo/aleo-regular.svg#aleoregular') format('svg');
+//     font-weight: 400;
+//     font-style: normal;
+
+// }
+
+
+@include font-face('aleo', 'fonts/aleo/aleo-bold', 700);
+
+// @font-face {
+//     font-family: 'aleo';
+//     src: url('fonts/aleo/aleo-bold.eot');
+//     src: url('fonts/aleo/aleo-bold.eot?#iefix') format('embedded-opentype'),
+//          url('fonts/aleo/aleo-bold.woff2') format('woff2'),
+//          url('fonts/aleo/aleo-bold.woff') format('woff'),
+//          url('fonts/aleo/aleo-bold.ttf') format('truetype'),
+//          url('fonts/aleo/aleo-bold.svg#aleobold') format('svg');
+//     font-weight: 700;
+//     font-style: normal;
+
+// }
+
+
+@include font-face('aleo', 'fonts/aleo/aleo-bolditalic', 700, italic);
+
+// @font-face {
+//     font-family: 'aleo';
+//     src: url('fonts/aleo/aleo-bolditalic.eot');
+//     src: url('fonts/aleo/aleo-bolditalic.eot?#iefix') format('embedded-opentype'),
+//          url('fonts/aleo/aleo-bolditalic.woff2') format('woff2'),
+//          url('fonts/aleo/aleo-bolditalic.woff') format('woff'),
+//          url('fonts/aleo/aleo-bolditalic.ttf') format('truetype'),
+//          url('fonts/aleo/aleo-bolditalic.svg#aleobolditalic') format('svg');
+//     font-weight:700;
+//     font-style: italic;
+
+// }
+@include font-face('icomoon', 'fonts/icomoon/icomoon', $ver: '?wx3efl');
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "\e900";
+}
+.icon-check:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-like:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-pinterest:before {
+  content: "\e905";
+}
+.icon-quote:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-twitter:before {
+  content: "\e908";
+}
+.icon-youtube:before {
+  content: "\e909";
+}

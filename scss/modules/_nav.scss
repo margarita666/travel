@@ -1,0 +1,40 @@
+.navigation{
+		background: $blue;
+		padding: 25px 0;
+		
+	}
+
+.menu{
+display: flex;
+	&__item{
+		
+	}
+	&__link{
+		font: 14px/1.8 $aleo;
+		color: #fff;
+		padding: 0 15px;
+		text-transform: uppercase;
+	}
+}
+
+.t-container--nav{
+	display: flex;
+		
+	justify-content: space-between;
+}
+.logo{
+	font: 700 24px/1.2 $josef;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.logo:hover{
+	color: #9BB4C1;
+	transition: all .3s;
+}
+
+.menu__link:hover{
+	color: #9BB4C1;
+	transition:all .3s ;
+
+}

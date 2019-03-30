@@ -1,0 +1,42 @@
+.t-container--items{
+	display: flex;
+	justify-content: space-around;
+	padding: 95px 0 115px;
+}
+.items{
+	background: #333333;
+	color: #fff;
+	font: 36px $aleo;
+	&__item{
+		text-align:center;
+	}
+}
+
+.item__icon{
+	font-size: 50px;
+	&--one{
+		color: #5474fd;
+	}
+	&--two{
+		color: #ff6363;
+	}
+	&--three{
+		color: #186fa1;
+	}
+}
+.items__item--two{
+	position: relative;
+}
+
+.items__item--two::before{
+	content:url('../images/dots.png');
+	position: absolute;
+	right:135px;
+	top:-65px;
+}
+.items__item--two::after{
+	content:url('../images/dots.png');
+	position: absolute;
+	left:135px;
+	top:-65px;
+}
